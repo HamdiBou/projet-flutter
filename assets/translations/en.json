@@ -20,5 +20,5 @@
   "notifications": "Notifications",
   "sound": "Sound",
   "language": "Language",
-  "about_text": "This Quiz App is developed using Flutter and utilizes the Open Trivia Database (OpenTDB) API to fetch quiz questions. It offers a variety of categories and difficulty levels for an engaging quiz experience."
+  "about_text": "This Quiz App is developed using Flutter and utilizes the Open Trivia Database (OpenTDB) API to fetch quiz questions. It offers a variety of categories and difficulty levels for an engaging quiz experience.\ndevelopped by Mohamed Amin Hadj Kacem & Hamdi Boussarsar\n\nThis app is open source and available on GitHub:https://github.com/HamdiBou/projet-flutter"
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../services/localization_service.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
@@ -9,11 +10,11 @@ class AboutScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('About'),
       ),
-      body: const Center(
+      body: Center(
         child: Padding(
           padding: EdgeInsets.all(16.0),
           child: Text(
-            'This Quiz App is developed using Flutter and utilizes the Open Trivia Database (OpenTDB) API to fetch quiz questions. It offers a variety of categories and difficulty levels for an engaging quiz experience.\nDevelopped by Mohamed Amin Hadj Kacem & Hamdi Boussarsar',
+            LocalizationService.of(context)!.translate('about_text'),
             style: TextStyle(fontSize: 16),
             textAlign: TextAlign.center,
           ),
